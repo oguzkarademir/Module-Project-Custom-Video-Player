@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang='en'>
-
+<html lang="en">
 <head>
-  <meta charset='utf8'>
-  <title>your project name</title>
-
-  <link href="./style.css" rel="stylesheet" />
-
-  <!-- load the testing dependencies -->
-  <script src='./dependencies/chai.js'></script>
-  <script src='./dependencies/describe-it.js'></script>
-
-  <!-- load the rest of your files -->
-
-
+  <meta charset="UTF-8">
+  <title>HTML Video Player</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+   <div class="player">
+     <video class="player__video viewer" src="./video/Introduction HackYourFuture Belgium.mp4" width=“640" height=“360”></video>
 
+     <div class="player__controls">
+       <div class="progress">
+        <div class="progress__filled"></div>
+       </div>
+       <button class="player__button toggle" title="Toggle Play">►</button>
+       <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" value="1">
+       <input type="range" name="playbackRate" class="player__slider" min="0.5" max="2" step="0.1" value="1">
+       <button data-skip="-10" class="player__button">« 10s</button>
+       <button data-skip="25" class="player__button">25s »</button>
+     </div>
+   </div>
 
-  <!-- Leave this here, it renders the review buttons
-      write your code above this script tag  -->
-  <script src='./dependencies/review-buttons.js'></script>
+  <script src="./scripts/handlers/play-pause.js"></script>
+  <script src="./scripts/handlers/update-toggle.js"></script>
+  <script src="./scripts/handlers/update-volume-playbackrate.js"></script>
+  <script src="./scripts/handlers/skip-buttons.js"></script>
+  <script src="./scripts/handlers/progressbar-handle.js"></script>
+  <script src="./scripts/handlers/scrup.js"></script>
+  <script src="./scripts/listeners/event-listeners.js"></script>
+  <script src="./scripts/script-variables.js"></script>
+
 </body>
-
 </html>
