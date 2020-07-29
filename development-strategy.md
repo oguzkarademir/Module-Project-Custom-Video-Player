@@ -15,8 +15,8 @@ A beginner project where we work collaboratively on Document Object Model. That 
 - Created a new repository 
 - Cloned the repository
 - Added HTML and CSS features for user interface
+- Added JS template files
 - Started `development-strategy.md` file
-- Added [this wireframe]()
 - Created issues
 - Pushed the changes
 - Turned on GitHub Pages
