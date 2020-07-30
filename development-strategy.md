@@ -54,3 +54,26 @@ This user story was developed on a branch called `toggle`
 - Got HTML elements with `querySelector` property
 - Used ternary conditional for icon switch
 - Used `eventListener` and `play/pause` attribute
+
+## 4. Skip-Button
+
+**As a site visitor, when I click the forward-button, it will be forward 25 seconds, when I click back-button, it will rewind 10 seconds**
+
+> assigned to `Olga`  
+> reviewers `Oguz` , `Pavel` and `Sayed`
+
+## Repo
+
+This user story was developed on a branch called `skip-button`
+
+## CSS
+
+- add `:action` effect to skip and play buttons
+
+## JS
+
+- Used `.currentTime` property for sets or returns the current playback position in a video (in seconds)
+- Used `.dataset.skip` property for get the time to skip
+- Used `parseFloat()` function for convert time to skip to a number
+- Used `eventListener` and `click` attribute for call function
+
