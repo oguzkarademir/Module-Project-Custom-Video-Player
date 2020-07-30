@@ -21,18 +21,19 @@ A beginner project where we work collaboratively on Document Object Model. That 
 - Pushed the changes
 - Turned on GitHub Pages
 
-## 1. ...
+## 1. Play-Pause Button
 
-**As a site visitor, .....**
+**As a site visitor, when i click the screen and play-pause button the video plays or pauses**
 
-> assigned to `....`  
-> reviewers `....` , `....` and `....`
+> assigned to `Oguz`  
+> reviewers `Olga` , `Yauhenia` and `Sayed`
 
 ## Repo
 
-This user story was developed on a branch called `....`
-
+This user story was developed on a branch called `play-pause`
 
 ## JS
 
-- 
+- Got HTML elements with `querySelector` property
+- Used `.paused` , `play()` and `pause()` methods for playing/pausing the video
+- Used `eventListener` and `click` attribute
