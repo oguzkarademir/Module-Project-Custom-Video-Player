@@ -14,7 +14,7 @@
 ### The goals of this project are:
 
 1. Team work
-1. Collaburation
+1. Collaboration
 1. Organizing code
 1. Managing tasks
 1. Branching
