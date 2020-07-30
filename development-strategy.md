@@ -12,7 +12,7 @@ A beginner project where we work collaboratively on Document Object Model. That 
 
 ### Repository
 
-- Created a new repository 
+- Created a new repository
 - Cloned the repository
 - Added HTML and CSS features for user interface
 - Added JS template files
@@ -38,6 +38,23 @@ This user story was developed on a branch called `play-pause`
 - Used `.paused` , `play()` and `pause()` methods for playing/pausing the video
 - Used `eventListener` and `click` attribute
 
+## 2. Update-toggle Button
+
+**As a site visitor, when i click on play button it switches graphically to pause or play**
+
+> assigned to `Yauheniya`  
+> reviewers `Olga` , `Pavel` and `Oguz`
+
+## Repo
+
+This user story was developed on a branch called `toggle`
+
+## JS
+
+- Got HTML elements with `querySelector` property
+- Used ternary conditional for icon switch
+- Used `eventListener` and `play/pause` attribute
+
 ## 4. Skip-Button
 
 **As a site visitor, when I click the forward-button, it will be forward 25 seconds, when I click back-button, it will rewind 10 seconds**
@@ -49,14 +66,14 @@ This user story was developed on a branch called `play-pause`
 
 This user story was developed on a branch called `skip-button`
 
+## CSS
+
+- add `:action` effect to skip and play buttons
+
 ## JS
 
-- Got HTML elements with `querySelector` property
 - Used `.currentTime` property for sets or returns the current playback position in a video (in seconds)
 - Used `.dataset.skip` property for get the time to skip
 - Used `parseFloat()` function for convert time to skip to a number
 - Used `eventListener` and `click` attribute for call function
 
-## CSS
-
-- add `:action` effect to skip and play buttons
