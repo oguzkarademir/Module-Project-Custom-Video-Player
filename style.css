@@ -54,8 +54,8 @@ html {
     max-width: 50px;
   }
   
-  .player__button:focus {
-    border-color: #ffc600;
+  .player__button:active {
+    color: #921099;
   }
   
   .player__slider {
