@@ -12,7 +12,7 @@ A beginner project where we work collaboratively on Document Object Model. That 
 
 ### Repository
 
-- Created a new repository 
+- Created a new repository
 - Cloned the repository
 - Added HTML and CSS features for user interface
 - Added JS template files
@@ -37,3 +37,20 @@ This user story was developed on a branch called `play-pause`
 - Got HTML elements with `querySelector` property
 - Used `.paused` , `play()` and `pause()` methods for playing/pausing the video
 - Used `eventListener` and `click` attribute
+
+## 2. Update-toggle Button
+
+**As a site visitor, when i click on play button it switches graphically to pause or play**
+
+> assigned to `Yauheniya`  
+> reviewers `Olga` , `Pavel` and `Oguz`
+
+## Repo
+
+This user story was developed on a branch called `toggle`
+
+## JS
+
+- Got HTML elements with `querySelector` property
+- Used ternary conditional for icon switch
+- Used `eventListener` and `play/pause` attribute
