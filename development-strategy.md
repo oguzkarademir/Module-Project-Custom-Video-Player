@@ -79,7 +79,7 @@ This user story was developed on a branch called `skip-button`
 
 ## 5. Progressbar
 
-**As a site visitor, when I click on the progressbar, it should jump to that part of the video**
+**As a site visitor, I want to see that there is a bar showing the time update for the video so that I know how much the video finished and how much of the video time is remaining to watch**
 
 > assigned to `Sayed`  
 > reviewers `Oguz` , `Olga`
