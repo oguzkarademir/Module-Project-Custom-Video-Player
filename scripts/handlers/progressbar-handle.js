@@ -1,6 +1,5 @@
 /* Get Our Elements (with querySelector)*/
 const progressBar = player.querySelector('.progress__filled');
-const ranges = player.querySelectorAll('.player__slider');
 
 
 
