@@ -7,6 +7,8 @@ toggle.addEventListener("click", playPause);
 video.addEventListener("play", updateToggleButton);
 video.addEventListener("pause", updateToggleButton);
 skipButtons.forEach(button => button.addEventListener('click', skipButton));
+progress.addEventListener('click', scrub);
+
 
 
 video.addEventListener("timeupdate", handleProgressBar);
