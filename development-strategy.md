@@ -55,6 +55,24 @@ This user story was developed on a branch called `toggle`
 - Used ternary conditional for icon switch
 - Used `eventListener` and `play/pause` attribute
 
+## 3. Volume and playback speed sliders
+
+**As a site visitor, I can change sound level of playback while changing a volume slider and manage the playback speed with the playbackrate slider**
+
+> assigned to `Pavel`  
+> reviewers `Oguz`, `Olga` 
+
+## Repo
+
+This user story was developed on a branch called `volume-and-speed-sliders`
+
+## JS
+
+1. Initialize a collection of DOM elements with `querySelectorAll` method
+2. Add a callback function for every element in collection. Callback function gets the element's `name` property and sets element's value to an appropriate player property.
+3. Add `eventListener` on `change` event with the callback function, defined on step 2.
+
+
 ## 4. Skip-Button
 
 **As a site visitor, when I click the forward-button, it will be forward 25 seconds, when I click back-button, it will rewind 10 seconds**
