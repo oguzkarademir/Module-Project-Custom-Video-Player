@@ -95,3 +95,25 @@ This user story was developed on a branch called `skip-button`
 - Used `parseFloat()` function for convert time to skip to a number
 - Used `eventListener` and `click` attribute for call function
 
+## 6. Scrub Function
+
+**As a site visitor, when I click on some part of the progressbar, it has to jump to that part of the video**
+
+> assigned to `Sayed`  
+> reviewers `Pavel` and `Yauheniya`
+
+## Repo
+
+This user story was developed on a branch called `scrub-function`
+
+## CSS
+
+Nothing
+
+## JS
+
+- the scrub part of the project
+- even listener
+
+
+
