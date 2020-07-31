@@ -77,3 +77,25 @@ This user story was developed on a branch called `skip-button`
 - Used `parseFloat()` function for convert time to skip to a number
 - Used `eventListener` and `click` attribute for call function
 
+## 5. Progressbar
+
+**As a site visitor, when I click on the progressbar, it should jump to that part of the video**
+
+> assigned to `Sayed`  
+> reviewers `Oguz` , `Olga`
+
+## Repo
+
+This user story was developed on a branch called `progressbar`
+
+## CSS
+
+- Nothing
+
+## JS
+
+- the progressbar for the video
+- the rangebar for the video
+- event listener
+
+
