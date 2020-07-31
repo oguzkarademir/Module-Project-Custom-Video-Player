@@ -16,14 +16,6 @@ function handleProgressBar() {
 }
 
 
-function handleRangeUpdate() {
-    video[this.name] = this.value;
-}
-
-
-ranges.forEach(range => range.addEventListener('change', handleRangeUpdate));
-ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate));
-
 
 
 /* write your event listeners in event-listeners.js*/
