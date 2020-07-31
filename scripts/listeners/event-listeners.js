@@ -10,4 +10,8 @@ skipButtons.forEach(button => button.addEventListener('click', skipButton));
 progress.addEventListener('click', scrub);
 
 
+
+video.addEventListener("timeupdate", handleProgressBar);
+
 ranges.forEach(range => range.addEventListener('change', updateRangeVolumePlaybackRate));
+

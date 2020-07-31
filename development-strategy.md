@@ -95,6 +95,28 @@ This user story was developed on a branch called `skip-button`
 - Used `parseFloat()` function for convert time to skip to a number
 - Used `eventListener` and `click` attribute for call function
 
+## 5. Progressbar
+
+**As a site visitor, I want to see that there is a bar showing the time update for the video so that I know how much the video finished and how much of the video time is remaining to watch**
+
+> assigned to `Sayed`  
+> reviewers `Oguz` , `Olga`
+
+## Repo
+
+This user story was developed on a branch called `progressbar`
+
+## CSS
+
+- Nothing
+
+## JS
+
+- the progressbar for the video
+- the rangebar for the video
+- event listener
+
+
 ## 6. Scrub Function
 
 **As a site visitor, when I click on some part of the progressbar, it has to jump to that part of the video**
